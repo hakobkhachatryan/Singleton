@@ -3,7 +3,7 @@ package com.company;
 import java.io.Serializable;
 
 public class MySingleton implements Serializable {
-    private static MySingleton instance;
+    private static volatile MySingleton instance;
 
     private MySingleton(){}
 

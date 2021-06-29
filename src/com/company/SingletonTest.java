@@ -1,6 +1,8 @@
 package com.company;
 
-public class git initTest {
+import java.util.concurrent.locks.Lock;
+
+public class SingletonTest {
     public static void main(String[] args) {
         MySingleton mySingleton = MySingleton.getInstance();
 
